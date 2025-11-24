@@ -9,11 +9,12 @@ This project is an e-commerce web application powered by Docker and Docker Compo
 * Environment variable support via .env file
 
 for i in mongodb mysql catalogue user cart shipping payment frontend ; do cd $i; docker build -t $i:v1 . ; cd ..; done
-docker compose up -d
-docker compose down
 
-Stop + remove volumes (⚠️ deletes DB data):
-docker compose down -v
+- docker compose up -d
+- docker compose down
+
+- Stop + remove volumes (⚠️ deletes DB data):
+- docker compose down -v
 
 
 docker compose
