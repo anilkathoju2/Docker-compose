@@ -1,4 +1,9 @@
 🛒 E-Commerce Platform – Docker Compose Setup
+===============
+docker compose
+===============
+it is simple yaml used to up or down the services at a time, define dependencies, networks, volumes, etc.
+services are dependent on each other. 
 This project is an e-commerce web application powered by Docker and Docker Compose. It bundles all required services (web app, database, cache, etc.) into isolated, reproducible containers — making local development simple, fast, and consistent.
 
 🚀 Features
@@ -17,7 +22,3 @@ for i in mongodb mysql catalogue user cart shipping payment frontend ; do cd $i;
 - docker compose down -v
 
 
-docker compose
-===============
-it is simple yaml used to up or down the services at a time, define dependencies, networks, volumes, etc.
-services are dependent on each other. 
